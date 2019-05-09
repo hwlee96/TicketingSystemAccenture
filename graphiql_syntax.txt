@@ -1,0 +1,109 @@
+***** GRAPHQL ******
+
+//Mutations//
+
+Top1:
+
+ mutation(
+    $asset: String!
+    $type: String!
+    $subject: String!
+    $dateRequested: String!
+    $priority: String!
+    $status: String!
+    $assigned: String!
+    $dateResolved: String!
+    $dateClosed: String!
+  	$mainThread: String!
+    $requesterId: ID!
+  ) {
+    addRequest(
+      asset: $asset
+      type: $type
+      subject: $subject
+      dateRequested: $dateRequested
+      priority: $priority
+      status: $status
+      assigned: $assigned
+      dateResolved: $dateResolved
+      dateClosed: $dateClosed
+      mainThread: $mainThread
+      requesterId: $requesterId
+    ) {
+      id
+      asset
+      type
+      subject
+      dateRequested
+      priority
+      status
+      assigned
+    }
+  }
+  
+Bottom1:
+  
+	{
+	  "asset": "API",
+	  "type": "Purchase",
+	  "subject": "Purchase",
+	  "dateRequested": "1 April 2019",
+	  "priority": "Low",
+	  "status": "Open",
+	  "assigned": "Ben",
+	  "dateResolved": "-",
+	  "dateClosed": "-",
+	  "mainThread": "Hi I would like to enquire about...",
+	  "requesterId": "5c9aeae037024e554cee2752"
+	}
+
+Top2: 
+
+  mutation(
+    $threadContent: String!
+    $threadCreatedDate: String!
+    $requestId: ID!
+  ) {
+    addThread(
+      threadContent: $threadContent
+      threadCreatedDate: $threadCreatedDate
+      requestId: $requestId
+    ) {
+      id
+      threadContent
+      threadCreatedDate
+    }
+  }
+  
+Bottom2:
+
+	{
+	  "threadContent": "Thread 5",
+	  "threadCreatedDate": "2019-04-01",
+	  "requestId": "5ca10b14c41bac332c18abac"
+	}
+
+	
+	
+	
+//Queries - All
+
+{
+users {
+  id
+  firstName
+  requests{
+	id
+	subject
+	mainThread
+	threads{
+	  threadContent
+	  id
+	}
+  }
+
+  
+}
+}
+  
+ //Queries - Single

@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec \"mocha -R min\"",
+    "test-server": "mocha test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "express-pino-logger": "^4.0.0",
+    "graphiql": "^0.13.0",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "easygraphql-tester": "^5.1.2"
+  }
+}

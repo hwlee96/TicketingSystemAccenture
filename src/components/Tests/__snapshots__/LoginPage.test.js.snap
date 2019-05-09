@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="loginbody"
+>
+  <div
+    className="login-page"
+  >
+    <div
+      className="form"
+    >
+      <img
+        alt="accenture icon"
+        className="accenture-logo-login"
+        src="aLogo.svg"
+      />
+      <p
+        className="accenture-text-login"
+      >
+        Accenture Requests Assistant
+      </p>
+      <form
+        className="register-form"
+      >
+        <input
+          placeholder="name"
+          type="text"
+        />
+        <input
+          placeholder="password"
+          type="password"
+        />
+        <input
+          placeholder="email address"
+          type="text"
+        />
+        <button>
+          create
+        </button>
+        <p
+          className="message"
+        >
+          Already registered? 
+          <a
+            href="#"
+          >
+            Sign In
+          </a>
+        </p>
+      </form>
+      <form
+        className="login-form"
+        onSubmit={[Function]}
+      >
+        <input
+          id="username-jest"
+          name="username"
+          onChange={[Function]}
+          placeholder="Username"
+          type="text"
+          value=""
+        />
+        <input
+          id="password-jest"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+        <p
+          className="error-text"
+        >
+          
+        </p>
+        <button>
+          login
+        </button>
+        <p
+          className="message"
+        >
+          Not registered? 
+          <a
+            href="#"
+          >
+            Create an account
+          </a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+`;

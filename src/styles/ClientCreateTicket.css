@@ -1,0 +1,25 @@
+.client-requester-name {
+  font-weight: 300;
+  font-size: 80%;
+  color: #414141;
+  margin-top: 4%;
+}
+
+.client-small-input-field {
+  background-color: #ffffff;
+  border: 1px solid #808080;
+  padding: 0.75%;
+  margin-top: 5%;
+  font-weight: 300;
+  font-size: 80%;
+  color: #414141;
+  width: 110%;
+}
+
+.send-button {
+  cursor: pointer;
+}
+
+#transparentButton {
+  cursor: pointer;
+}

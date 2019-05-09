@@ -1,0 +1,147 @@
+.clientDetail {
+  font-size: 85%;
+  color: #000000;
+  font-weight: 300;
+  text-align: left;
+  padding-top: 2%;
+}
+
+.clientNotSubject {
+  padding-top: 4%;
+}
+
+.clientSubjectLink {
+  text-decoration: none;
+}
+
+.clientSubjectLinkHover:link,
+.clientSubjectLinkHover:visited {
+  padding: 8px 0;
+  color: #414141;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.clientSubjectLinkHover:hover,
+.clientSubjectLinkHover:active {
+  font-weight: bold;
+  color: #000000;
+}
+
+.clientSubjectLinkHover {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #e5e5e5;
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+  width: 200px;
+  padding: 2%;
+}
+
+.user-ticket-list-yes-button,
+.user-ticket-list-no-button {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 300;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.yes-button-text {
+  text-align: center;
+  background-color: #249d3b;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 6px 10.5px;
+}
+
+.no-button-text {
+  text-align: center;
+  background-color: #c12b2b;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  padding: 6px 10.5px;
+}
+
+.unable-close {
+  padding: 20px 21px;
+  text-align: left;
+  font-size: 90%;
+  margin-right: 4%;
+  margin-left: 3%;
+}
+
+.clientStatusArrow {
+  margin: 1%;
+  margin-left: -4%;
+  margin-right: 3.5%;
+}
+
+.clientStatusArrowInvisible {
+  margin: 1%;
+  margin-left: -3.8%;
+  margin-right: 3.5%;
+  visibility: hidden;
+}
+
+#client-status {
+  margin-right: -0.8%;
+}
+
+/* -----------------------------------------------*/
+/* CHANGE STATUS POPUP SCREEN */
+/* -----------------------------------------------*/
+
+.status-popup-screen {
+  background-color: rgba(65, 65, 65, 0.67);
+}
+
+.change-status-popup {
+  background-color: #ffffff;
+  padding: 2%;
+  width: 50%;
+  margin: 2%;
+  font-size: 90%;
+}
+
+.change-status-text {
+  text-align: justify;
+}
+
+.change-status-no-button {
+  background-color: #aa0000;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  opacity: 1;
+  width: 10%;
+  display: inline-block;
+  font-size: 90%;
+  margin-top: 5%;
+}
+
+.change-status-yes-button {
+  background-color: #249d3b;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 10%;
+  display: inline-block;
+  float: right;
+  font-size: 90%;
+  margin-top: 5%;
+}
+
+.change-status-no-text {
+  margin: 10%;
+  text-align: center;
+}
+
+.change-status-yes-text {
+  margin: 10%;
+  text-align: center;
+}

@@ -1,0 +1,562 @@
+/* -----------------------------------------------*/
+/* BACK TO TICKETS HEADING */
+/* -----------------------------------------------*/
+.noScroll {
+  overflow: hidden;
+}
+
+.back-to-tickets-section {
+  background-color: #ffff;
+  border: 1px solid #b1b1b1;
+}
+
+.back-to-tickets-text,
+.page-no {
+  display: inline-block;
+  padding: 0.5%;
+  font-size: 85%;
+  color: #7e7e7e;
+  font-weight: 300;
+}
+
+.page-no {
+  float: right;
+}
+.arrow-left-new-2,
+.arrow-left-new,
+.arrow-right-new,
+.trash {
+  width: 25px;
+  height: 25px;
+  margin: 0.2% 0.5%;
+  vertical-align: middle;
+  padding: 0.2%;
+}
+
+.arrow-left-new-2,
+.arrow-right-new,
+.trash {
+  float: right;
+}
+
+.arrow-left-new,
+.arrow-left-new-2 {
+  transform: rotate(90deg);
+}
+
+.arrow-right-new {
+  transform: rotate(270deg);
+}
+
+/* -----------------------------------------------*/
+/* ENQUIRIES */
+/* -----------------------------------------------*/
+
+.enquiry-section {
+  background-color: #e8e8e8;
+  overflow: hidden;
+  width: 100%;
+}
+
+.enquiry-head {
+  background-color: #ecf0f1;
+  display: block;
+}
+
+.enquiry-title {
+  display: inline-block;
+  margin: 2%;
+  margin-bottom: 0;
+}
+
+.author {
+  padding: 1% 3%;
+  padding-bottom: 1%;
+  font-size: 70%;
+}
+
+.recipient {
+  margin-bottom: 3%;
+}
+
+.timing {
+  display: inline-block;
+  font-size: 70%;
+  color: #7e7e7e;
+  float: right;
+  vertical-align: top;
+  margin: 3% 2%;
+}
+
+.enquiry-body {
+  padding: 3% 6%;
+  font-size: 80%;
+}
+
+.textareareplyThread {
+  padding: 1%;
+  width: 100%;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  font-size: 78%;
+  color: #868686;
+}
+
+.reply-button {
+  background-color: #ecf0f1;
+  padding: 1%;
+  border-radius: 8px;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.reply-arrow {
+  margin: 0 5%;
+  width: 25px;
+  height: 25px;
+  vertical-align: top;
+}
+
+.file-logo-reqdetail {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 1%;
+  margin-top: 1.5%;
+  margin-right: 0;
+  vertical-align: top;
+}
+
+.attach-file-words {
+  display: inline-block;
+  margin: 1.2%;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-right: 1px solid #969696;
+  padding: 0.5% 0;
+  padding-right: 15px;
+  font-size: 80%;
+}
+
+.cancel-button {
+  display: inline-block;
+  font-size: 80%;
+  margin-left: 80%;
+  margin-bottom: 1%;
+  margin-top: 0.5%;
+}
+
+.send-button-detailspage {
+  display: inline-block;
+  font-size: 80%;
+  margin-left: 1%;
+}
+
+.send-button-createThread {
+  display: inline-block;
+  font-size: 80%;
+  margin-left: 1%;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+
+.cancel {
+  padding: 7% 10px;
+  margin-left: -1%;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: 1px solid #969696;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.send-req-details {
+  padding: 7% 19px;
+  margin-left: -1%;
+  text-align: center;
+  background-color: #249d3b;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: 1px solid #868686;
+  cursor: pointer;
+}
+/* -----------------------------------------------*/
+/* PROPERTIES */
+/* -----------------------------------------------*/
+
+.properties {
+  background-color: #ffff;
+  padding: 5%;
+}
+
+.property {
+  margin: 8% 4%;
+  padding: 1%;
+  font-size: 75%;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.propertyNormalWords {
+  margin: 0 4%;
+  padding: 1%;
+  font-size: 80%;
+}
+
+.propertyArrowWords {
+  font-size: 100%;
+
+  margin-top: 4%;
+  margin-left: 5px;
+}
+
+/* THIS PART: this line of code below is the ticket properties section (just need to take out this code to get rid of the lines) */
+
+.special-property {
+  margin: 8% 4%;
+  padding: 1%;
+  font-size: 75%;
+  font-weight: 400;
+}
+
+.arrow-down-new {
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  margin-top: 2%;
+  margin-left: 30px;
+}
+
+/* -----------------------------------------------*/
+/* CONTACT DETAILS */
+/* -----------------------------------------------*/
+
+.combined-contact-past-ticket-details {
+  background-color: #ffff;
+}
+
+.contact-details {
+  padding: 5%;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #a3a3a3;
+}
+
+.type-of-details {
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 75%;
+  color: #00000;
+}
+
+/* .detail {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-weight: 300;
+  font-size: 90%;
+} */
+
+/* .detail-req {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-weight: 300;
+  font-size: 90%;
+} */
+
+/* -----------------------------------------------*/
+/* REPLY/ATTACH BOX */
+/* -----------------------------------------------*/
+.enquiry-head-reply {
+  background-color: #ecf0f1;
+}
+
+.reply-attach {
+  padding: 1.5% 1%;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.reply-arrow-new-2 {
+  width: 25px;
+  height: 25px;
+}
+
+.from-to {
+  font-size: 70%;
+  display: inline-block;
+  padding: 1.5% 1%;
+}
+
+.border-from-to {
+  border-left: 1px solid #969696;
+  padding: 2% 0;
+  padding-bottom: 1.5%;
+  padding-left: 25px;
+}
+
+/* -----------------------------------------------*/
+/* PAST TICKETS/CONVERSATIONS HEADING */
+/* -----------------------------------------------*/
+
+.past-ticket-head {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c9c9c9;
+  padding: 2%;
+}
+.first-past-enquiry {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e5e5e5;
+  content: " ";
+}
+
+/* -----------------------------------------------*/
+/* PAST TICKETS/CONVERSATIONS (INDIVIDUAL TICKET) */
+/* -----------------------------------------------*/
+
+.ticket-id {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.smaller-head {
+  font-size: 65%;
+  margin: 0 5%;
+}
+
+.past-ticket-body {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 65%;
+}
+
+.date {
+  display: inline-block;
+  font-size: 60%;
+  margin: 4%;
+  width: 73%;
+}
+
+.status {
+  display: inline-block;
+  font-size: 60%;
+}
+
+/* -----------------------------------------------*/
+/* SECTION THAT APPEARS ONCE ADMINISTRATOR REPLIES */
+/* -----------------------------------------------*/
+
+.replied-who {
+  display: inline-block;
+}
+
+.timing-2 {
+  display: inline-block;
+  margin-left: 300px;
+  font-size: 100%;
+  color: #7e7e7e;
+}
+
+.reply-arrow-3 {
+  width: 25px;
+  height: 25px;
+  vertical-align: top;
+}
+
+.internal-scrolling {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.attachedImageAccess {
+  margin: 2% 0;
+}
+
+.url-bottom-left {
+  font-size: 80%;
+  padding: 3%;
+  font-weight: 400;
+}
+
+.url-bottom-left:link,
+.url-bottom-left:visited {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  color: #1461c9;
+}
+
+.url-bottom-left:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #1461c9;
+}
+.url-bottom-left:active {
+  text-decoration: underline;
+  color: #1461c9;
+}
+
+.grid-row {
+  margin-top: 3%;
+}
+
+/* -----------------------------------------------*/
+/* SECTION TO ADD */
+/* -----------------------------------------------*/
+
+.user-user-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 2%;
+  margin-top: 0.5%;
+}
+
+.user-main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 1%;
+  position: relative;
+  display: inline-block;
+  margin-right: 2%;
+  vertical-align: top;
+}
+
+.user-main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 80%;
+}
+
+.user-main-nav li a:link,
+.user-main-nav li a:visited {
+  padding: 8px 0;
+  color: #414141;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.user-main-nav li a:hover,
+.user-main-nav li a:active {
+  border-bottom: 2px solid #909090;
+}
+
+.user-text-boxes {
+  background-color: #ffff;
+  border: 1px solid #7e7e7e;
+  width: 49.2%;
+  margin-top: 1%;
+}
+
+.user-back-to-tickets-section {
+  background-color: #ffff;
+  border: 1px solid #b1b1b1;
+  width: 74.6%;
+}
+
+.user-reply-button {
+  background-color: #f7f7f7;
+  padding: 1%;
+  width: 9%;
+  height: auto;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 80%;
+  border-radius: 3px;
+}
+
+.user-reply-arrow {
+  width: 17px;
+  height: 17px;
+  vertical-align: top;
+  margin-right: 5%;
+}
+
+.reply-thread {
+  background-color: #ffff;
+  border: 1px solid #7e7e7e;
+  margin-top: 5%;
+}
+
+.thread-stream {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.add-col {
+  width: 74.6%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.quarter-col {
+  width: 23.8%;
+  margin-top: 1%;
+  display: inline-block;
+  float: right;
+}
+
+.arrow-up-new {
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+  display: inline-block;
+  transform: rotate(180deg);
+  float: right;
+}
+
+.contact-property {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+/* -----------------------------------------------*/
+/* CREATE THREAD SECTION */
+/* -----------------------------------------------*/
+
+.file-input-wrapper2 {
+  width: 120px;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 2%;
+  margin-bottom: -4%;
+  padding-top: 0.5%;
+}
+
+.file-input-wrapper2 > input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-input-wrapper2 > .btn-file-input2 {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #1160bc;
+  font-size: 85%;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 400;
+}

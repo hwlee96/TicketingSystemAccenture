@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <button
+    className="buttonStyleCross"
+    id="transparentButton"
+    type="button"
+  >
+    <img
+      alt="cross"
+      src="cross.svg"
+    />
+  </button>
+  <br />
+  <br />
+  <div
+    className="successfulFileAttach"
+  />
+  <br />
+  <div
+    className="uploadAttachmentHere"
+  >
+    <p
+      className="uploadAttachmentText"
+    >
+      Upload an image attachment here:
+    </p>
+  </div>
+  <div
+    className="file-input-wrapper"
+  >
+    <button
+      className="btn-file-input"
+    >
+      Choose Image
+    </button>
+    <input
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <br />
+  <br />
+  <button
+    className="buttonStyleUpload"
+    onClick={[Function]}
+  >
+    Attach
+  </button>
+  <div
+    className="LinearDeterminate-root-1"
+  >
+    <div
+      aria-valuenow={0}
+      className="MuiLinearProgress-root-2 MuiLinearProgress-colorPrimary-3 MuiLinearProgress-determinate-5"
+      role="progressbar"
+    >
+      <div
+        className="MuiLinearProgress-bar-12 MuiLinearProgress-barColorPrimary-13 MuiLinearProgress-bar1Determinate-16"
+        style={
+          Object {
+            "transform": "scaleX(0)",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

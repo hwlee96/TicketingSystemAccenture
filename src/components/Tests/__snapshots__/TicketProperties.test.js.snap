@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="properties"
+>
+  <h2
+    className="small-heading contact-property"
+  >
+    Ticket Properties
+  </h2>
+  <div
+    className="grid-row"
+  >
+    <p
+      className="property"
+    >
+      <b>
+        Ticket ID
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+    <p
+      className="property"
+    >
+      <b>
+        Asset(s)
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+    <p
+      className="property"
+    >
+      <b>
+        Type
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+    <div>
+      <p
+        className="property"
+      >
+        <b>
+          Priority
+        </b>
+      </p>
+      <p
+        className="propertyNormalWords"
+      />
+      <div
+        className="special-property"
+      >
+        <p>
+          <b>
+            Assigned
+          </b>
+        </p>
+        <p
+          className="propertyArrowWords"
+        >
+          <img
+            alt="arrow"
+            className="arrow-down"
+            src="iconfinder_icon-ios7-arrow-down_211687.svg"
+          />
+        </p>
+      </div>
+    </div>
+    <div
+      className="special-property"
+    >
+      <p>
+        <b>
+          Status
+        </b>
+      </p>
+      <p
+        className="propertyArrowWords"
+      >
+        <img
+          alt="arrow"
+          className="arrow-down"
+          src="iconfinder_icon-ios7-arrow-down_211687.svg"
+        />
+      </p>
+    </div>
+    <p
+      className="property"
+    >
+      <b>
+        Date/Time Requested
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+    <p
+      className="property"
+    >
+      <b>
+        Date/Time Resolved
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+    <p
+      className="property"
+    >
+      <b>
+        Date/Time Closed
+      </b>
+    </p>
+    <p
+      className="propertyNormalWords"
+    />
+  </div>
+</div>
+`;

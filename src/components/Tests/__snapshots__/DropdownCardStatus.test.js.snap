@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <button
+    className="transparentButton-status"
+    id="transparentButton"
+    onClick={[Function]}
+  >
+    <img
+      alt="arrow"
+      className="arrow-down-2"
+      src="iconfinder_icon-ios7-arrow-down_211687.svg"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 80,
+      "left": "auto",
+      "margin": 0,
+      "position": "fixed",
+      "right": 20,
+      "top": "auto",
+    }
+  }
+>
+  <div
+    className="chatbox"
+  >
+    <div
+      className="chatboxheading"
+    >
+      <h1
+        className="chatboxtextheading"
+      >
+        Chat Support
+      </h1>
+    </div>
+    <div
+      className="chatboxbody internal-scrolling-chat"
+    >
+      <div
+        className="clearchat"
+      />
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="reply-box"
+      >
+        <button
+          className="sendbutton"
+          type="submit"
+        >
+          Send
+        </button>
+        <div
+          className="typemessageherebox"
+        >
+          <textarea
+            className="textarea"
+            cols="35"
+            onChange={[Function]}
+            placeholder="Type your message here..."
+            rows="4"
+            value=""
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

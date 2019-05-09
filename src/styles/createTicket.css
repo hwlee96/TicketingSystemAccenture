@@ -1,0 +1,159 @@
+/* -----------------------------------------------*/
+/*  GLOBAL TERMS:
+    SMALL WORDS: color: #414141;
+    BACKGROUND COLOR: background-color: #fcfcfc; #e5e5e5; #f0f0f0; #ecf0f1
+
+*/
+/* -----------------------------------------------*/
+
+/* ----------------------------------------------*/
+/* BASIC SETUP */
+/* -----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+html {
+  background-color: #fff;
+  color: #414141;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* -----------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* -----------------------------------------------*/
+.row {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.small-heading {
+  font-size: 100%;
+  color: #000000;
+  margin-left: 2%;
+  margin: 1.5%;
+  display: inline-block;
+}
+
+/* -----------------------------------------------*/
+/* TICKET HEADING */
+/* -----------------------------------------------*/
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.ticket-page-header {
+  background-color: #ffffff;
+  background-size: cover;
+}
+/* -----------------------------------------------*/
+/* MAIN BODY */
+/* -----------------------------------------------*/
+.create-new-tix-main-body {
+  background-color: #ecf0f1;
+  display: flex;
+  height: 700px;
+}
+
+.heading-box {
+  padding-left: 1.5%;
+}
+
+.create-new-tix-heading {
+  font-size: 85%;
+  color: #000000;
+  margin: 30% 0;
+  margin-left: 30%;
+}
+
+.top-heading {
+  margin-top: 15%;
+}
+
+.small-input-field {
+  background-color: #ffffff;
+  border: 1px solid #808080;
+  padding: 0.75%;
+  margin-top: 5.5%;
+  font-weight: 300;
+  font-size: 80%;
+  color: #414141;
+  width: 110%;
+}
+
+.dropdownOption {
+  margin-top: 6.5%;
+}
+
+.arrow-down {
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  margin-top: 4%;
+  float: right;
+}
+
+.file-logo {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin: 1%;
+  margin-right: 0.5%;
+  vertical-align: top;
+}
+
+.top-field {
+  margin-top: 3.5%;
+}
+
+.input-fields {
+  padding-left: 5%;
+}
+
+.last-field {
+  margin-bottom: -1%;
+}
+
+.attach-send-bar {
+  background-color: #f5f5f5;
+  display: block;
+  height: 40px;
+  border: 1px solid #afafaf;
+  width: 110%;
+}
+
+.attach-file {
+  display: inline-block;
+  margin: 1.5% 0;
+  font-size: 80%;
+}
+
+.send {
+  padding: 7% 14px;
+  text-align: center;
+  background-color: #249d3b;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 7px;
+}
+
+.send-button {
+  display: inline-block;
+  font-size: 75%;
+  float: right;
+  margin: 1% 1.5%;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}

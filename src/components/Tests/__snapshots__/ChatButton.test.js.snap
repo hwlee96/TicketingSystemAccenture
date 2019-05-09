@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div />
+  <button
+    className="MuiButtonBase-root-11 MuiFab-root-1"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#416FBD",
+        "bottom": 20,
+        "color": "#FFFFFF",
+        "left": "auto",
+        "margin": 0,
+        "position": "fixed",
+        "right": 20,
+        "top": "auto",
+      }
+    }
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiFab-label-2"
+    >
+      <img
+        alt="chatIcon"
+        src="chat.svg"
+      />
+      <i
+        className="fas fa-comment"
+      />
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+</div>
+`;

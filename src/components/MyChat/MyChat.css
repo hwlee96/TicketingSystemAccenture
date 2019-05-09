@@ -1,0 +1,161 @@
+/* -----------------------------------------------*/
+/*  GLOBAL TERMS:
+    SMALL WORDS: color: #414141;
+    BACKGROUND COLOR: background-color: #fcfcfc; #e5e5e5; #f0f0f0; #ecf0f1
+
+*/
+/* -----------------------------------------------*/
+
+/* -----------------------------------------------*/
+/* BASIC SETUP */
+/* -----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+html {
+  background-color: #fff;
+  color: #414141;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* -----------------------------------------------*/
+/* CHAT BOX */
+/* -----------------------------------------------*/
+.chatbox {
+  width: 380px;
+}
+
+.chatboxheading {
+  background-color: #1160bc;
+  padding: 1%;
+  border-bottom: 1px solid #868686;
+}
+
+.chatboxtextheading {
+  font-size: 100%;
+  color: #ffffff;
+  margin-left: 2%;
+  margin: 1.5%;
+  display: inline-block;
+}
+
+.chatboxbody {
+  padding: 0 5%;
+  border: 1px solid #868686;
+  border-bottom: none;
+  border-top: none;
+  min-height: 380px;
+  background-color: #ffffff;
+}
+
+.messageplusdateclient {
+  float: right;
+}
+.timeofmessageclient {
+  display: block;
+  margin-bottom: 10%;
+  margin-left: 47%;
+}
+
+.timeofmessagetext {
+  font-size: 70%;
+}
+
+.clientmessage {
+  background-color: rgba(141, 194, 255, 0.79);
+  width: 250px;
+  display: block;
+  border-radius: 7px;
+  color: #000000;
+  padding: 3%;
+  word-wrap: break-word;
+}
+
+.firstclientmessage {
+  margin-top: 5%;
+}
+
+.clientchattext {
+  font-size: 80%;
+}
+
+.messageplusdateadmin {
+  float: left;
+}
+
+.timeofmessageadmin {
+  display: block;
+  margin-bottom: 10%;
+  margin-left: 3%;
+}
+
+.adminmessage {
+  display: block;
+  width: 250px;
+  background-color: #e8e8e8;
+  padding: 3%;
+  border-radius: 7px;
+  color: #000000;
+  word-wrap: break-word;
+}
+
+.adminchattext {
+  font-size: 80%;
+}
+
+.clearchat {
+  clear: both;
+}
+
+.reply-box {
+  height: 100px;
+  width: 100%;
+  border: 1px solid #868686;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.typemessageherebox {
+  display: inline-block;
+  float: left;
+}
+
+.textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  font-size: 78%;
+  color: #868686;
+  padding: 2%;
+}
+
+.sendbutton {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 90%;
+  color: #198d34;
+  display: inline-block;
+  float: right;
+  margin-top: 5%;
+  margin-right: 3.5%;
+  margin-bottom: 0;
+}
+
+.internal-scrolling-chat {
+  height: 450px;
+  overflow-y: scroll;
+}

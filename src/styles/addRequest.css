@@ -1,0 +1,37 @@
+#form-add {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 400px;
+}
+
+#form-add .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#form-add label {
+  text-align: right;
+  padding: 6px;
+}
+
+#form-add select,
+#form-add input {
+  margin: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  color: #fff;
+  font-size: 2em;
+  background: #ad1457;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
