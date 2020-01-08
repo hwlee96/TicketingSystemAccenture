@@ -7,6 +7,7 @@ Pitchdeck.pdf provides summary of features designed and developed in the web app
 ### To run web app:
 * run`npm install` before running application for the first time
 * run`npm start` to start the web app
+* default username and password set is 'benjamin' and 'password' respectively
 
 ### To run jest tests:
 * run `npm test`
