@@ -18,3 +18,24 @@ Pitchdeck.pdf provides summary of features designed and developed in the web app
   npm `npm run test` 
 3. To run unit and robust testing:
   npm `npm run test-server`
+
+---
+
+## Final Product Requirements Analysis
+
+### Use Case Diagram (Overall Product Workflow)
+https://github.com/hwlee96/TicketingSystemAccenture/UML%20Diagrams/Use%20Case%20Diagram.png
+
+### Sequence Diagram (Administrator/ACNAPI initiates resolving of request)
+https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Sequence%20Diagram%20Admin.png
+
+### Sequence Diagram (Client/Customer initiates resolving of request)
+https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Sequence%20Diagram%20Client.png
+
+### Class Diagram
+https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Class%20Diagram.png
+
+### Tech Stack implemented
+https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/tech-stack.png
+
+
