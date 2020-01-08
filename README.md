@@ -24,19 +24,23 @@ Pitchdeck.pdf provides summary of features designed and developed in the web app
 ## Final Product Requirements Analysis
 
 ### Use Case Diagram (Overall Product Workflow)
-<img src="UML%20Diagrams/Sequence%20Diagram%20Admin.png" width=600px>
+<img src="UML%20Diagrams/Use%20Case%20Diagram.png">
 
 
 ### Sequence Diagram (Administrator/ACNAPI initiates resolving of request)
-https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Sequence%20Diagram%20Admin.png
+<img src="UML%20Diagrams/Sequence%20Diagram%20Admin.png">
+
 
 ### Sequence Diagram (Client/Customer initiates resolving of request)
-https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Sequence%20Diagram%20Client.png
+<img src="UML%20Diagrams/Sequence%20Diagram%20Client.png">
+
 
 ### Class Diagram
-https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/Class%20Diagram.png
+<img src="UML%20Diagrams/Class%20Diagram.png">
+
 
 ### Tech Stack implemented
-https://github.com/hwlee96/TicketingSystemAccenture/blob/master/UML%20Diagrams/tech-stack.png
+<img src="UML%20Diagrams/tech-stack.png">
+
 
 
