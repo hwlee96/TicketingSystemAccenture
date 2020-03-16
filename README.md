@@ -2,7 +2,9 @@
 Project for SUTD Term 5 (Elements of Software Construction module)
 Worked with Accenture ACNAPI team to create a CRM ticket requests handling web application.
 
-Pitchdeck.pdf provides summary of features designed and developed in the web app.
+```Pitchdeck.pdf``` provides summary of features designed and developed in the web app.
+
+Visit [my behance page](https://www.behance.net/gallery/90390005/ACNAPI-Ticketing-Platform) for more project details (in terms of user requirements) and samples mockup recordings for the general user experience.
 
 ### To run web app:
 * run`npm install` before running application for the first time
